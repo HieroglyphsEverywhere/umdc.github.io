@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'AaronHEPTestFont';
+    src: url('../webfonts/aaronsolidbasictest.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.AaronHEPTestText {
+    font-family: 'AaronHEPTestFont';
+    font-size: 20pt;
+    font-feature-settings: 'liga' 1;
+}
