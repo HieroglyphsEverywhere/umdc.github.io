@@ -11,6 +11,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'AaronUMdCPhoneticAlpha';
+    src: url('../webfonts/AaronUMdCPhoneticAlpha100.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 .AaronHEPTestText {
     font-family: 'AaronHEPTestFont';
@@ -20,6 +27,12 @@
 
 .AaronUMdCText {
     font-family: 'AaronUMdCAlpha';
+    font-size: 20pt;
+    font-feature-settings: 'liga' 1;
+}
+
+.AaronUMdCPhoneticText {
+    font-family: 'AaronUMdCPhoneticAlpha';
     font-size: 20pt;
     font-feature-settings: 'liga' 1;
 }
