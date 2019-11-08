@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'AaronHEPTestFont';
+    src: url('../webfonts/aaronsolidbasictest.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AaronUMdCAlpha';
+    src: url('../webfonts/AaronUMdCAlpha100.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AaronUMdCPhoneticAlpha';
+    src: url('../webfonts/AaronUMdCPhoneticAlpha100.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AtenSystematicAlpha';
+    src: url('../webfonts/AtenSystematicAlpha102New.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.AaronHEPTestText {
+    font-family: 'AaronHEPTestFont';
+    font-size: 20pt;
+    font-feature-settings: 'liga' 1;
+}
+
+.AaronUMdCText {
+    font-family: 'AaronUMdCAlpha';
+    font-size: 20pt;
+    font-feature-settings: 'liga' 1;
+}
+
+.AaronUMdCPhoneticText {
+    font-family: 'AaronUMdCPhoneticAlpha';
+    font-size: 20pt;
+    font-feature-settings: 'liga' 1;
+}
+
+.AaronUMdCText {
+    font-family: 'AtenSystematicAlpha';
+    font-size: 20pt;
+    font-feature-settings: 'liga' 1;
+}
+
